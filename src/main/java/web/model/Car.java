@@ -13,6 +13,10 @@ public class Car {
         this.yearOfRelease = yearOfRelease;
     }
 
+    public Car() {
+
+    }
+
     public String getModel() {
         return model;
     }

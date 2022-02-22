@@ -15,9 +15,9 @@
             <th>Year Of Release</th>
         </tr>
         <tr th:each="car : ${carList}">
-            <td th:utext="${car.getModel()}">model</td>
-            <td th:utext="${car.getColor()}">color</td>
-            <td th:utext="${car.getYearOfRelease()}">yearOfRelease</td>
+            <td th:text="${car.getModel()}">model</td>
+            <td th:text="${car.getColor()}">color</td>
+            <td th:text="${car.getYearOfRelease()}">yearOfRelease</td>
         </tr>
     </table>
 </div>
